@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/setup_nav_graph"
+    app:startDestination="@id/setupFragment">
+    <fragment
+        android:id="@+id/setupFragment"
+        android:name="gsrv.klassenplaner.ui.setup.SetupFragment"
+        android:label="@string/app_name">
+        <action
+            android:id="@+id/action_setupFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_setupFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="gsrv.klassenplaner.ui.setup.LoginFragment"
+        android:label="@string/title_login" >
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://BASE.URL/groups/{group_id}" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="gsrv.klassenplaner.ui.setup.RegisterFragment"
+        android:label="@string/title_register" />
+</navigation>

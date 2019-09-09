@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="24dp"
+    android:paddingTop="16dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/headerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/filter"
+        android:text="8 Hausaufgaben aus 2 Gruppen"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1" />
+
+    <TextView
+        android:id="@+id/headerSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerTitle"
+        android:layout_toStartOf="@id/filter"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="nächste 7 Tage, ausgenommen Religion, Ethik, Italienisch"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:background="?selectableItemBackgroundBorderless"
+        app:srcCompat="@drawable/ic_filter_list"
+        app:tint="?colorPrimary" />
+
+</RelativeLayout>

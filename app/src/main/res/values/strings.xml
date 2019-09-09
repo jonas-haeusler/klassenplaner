@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Klassenplaner</string>
+    <string name="homeworks">Hausaufgaben</string>
+    <string name="homework">Hausaufgabe</string>
+    <string name="exams">Klausuren</string>
+    <string name="exam">Klausur</string>
+    <string name="info_offline_mode">You\'re currently browsing in offline mode!</string>
+    <string name="manage_lists">Listen verwalten</string>
+    <string name="notifications">Benachrichtigungen</string>
+    <string name="error_offline_mode">Couldn\'t connect to the internet. You\'re currently browsing in offline mode.</string>
+    <string name="retry">Retry</string>
+    <string name="turn_on_wifi">Turn on wifi</string>
+    <string name="error_empty">Es wurden keine Einträge gefunden</string>
+    <string name="error_network_unavailable">Your network is unavailable. Check your data or wifi connection and try again.</string>
+    <string name="hint_subject">Fach</string>
+    <string name="hint_date">Datum</string>
+    <string name="hint_group">Gruppe</string>
+    <string name="discard">Verwerfen</string>
+    <string name="error_loading_groups">Fehler beim Laden der Gruppen</string>
+    <string name="date_never">Nie</string>
+    <string name="date_one_day">1 Tag vorher</string>
+    <string name="date_two_days">2 Tage vorher</string>
+    <string name="date_three_days">3 Tage vorher</string>
+    <string name="date_today">Heute</string>
+    <string name="date_tomorrow">Morgen</string>
+    <string name="date_overmorrow">Übermorgen</string>
+    <string name="date_next_x">Nächsten %1$s</string>
+    <string name="date_pick">Datum auswählen…</string>
+    <string name="input_error_subject">Fehlerhaftes Fach</string>
+    <string name="input_error_date">Fehlerhaftes Datum</string>
+    <string name="input_error_group">Fehlerhafte Gruppe</string>
+    <string name="error_save_failed">%1$s konnte nicht gespeichert werden</string>
+    <string name="error_deletion_failed">%1$s konnte nicht gelöscht werden</string>
+    <string name="title_add_item">%1$s erstellen</string>
+    <string name="title_edit_item">%1$s bearbeiten</string>
+    <string name="save_item">%1$s speichern</string>
+    <string name="create">Erstellen</string>
+    <string name="hint_password">Passwort</string>
+    <string name="logged_in">Eingeloggt</string>
+    <string name="not_logged_in">Nicht eingeloggt</string>
+    <string name="login">Anmelden</string>
+    <string name="logout">Abmelden</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="button_add_group">Gruppe hinzufügen</string>
+    <string name="remove_group">Gruppe %1$s entfernen?</string>
+    <string name="remove">Entfernen</string>
+    <string name="group_remove_locally">Lokal entfernen</string>
+    <string name="group_delete_globally">Global löschen</string>
+    <string name="delete_item">%1$s löschen</string>
+    <string name="delete">Löschen</string>
+    <string name="title_register">Klassenplaner erstellen</string>
+    <string name="title_login">Klassenplaner öffnen</string>
+    <string name="title_group_manager">Gruppen verwalten</string>
+    <string name="time_morning">Morgens (08:00 Uhr)</string>
+    <string name="time_midday">Mittags (13:00 Uhr)</string>
+    <string name="time_afternoon">Nachmittags (18:00 Uhr)</string>
+    <string name="time_noon">Abends (20:00 Uhr)</string>
+    <string name="time_pick">Uhrzeit auswählen…</string>
+    <string name="save">Speichern</string>
+    <string name="notification_channel_id_homework" translatable="false">channel_homework</string>
+    <string name="notification_channel_name_homework">Hausaufgaben</string>
+    <string name="notification_channel_id_exam">channel_exam</string>
+    <string name="notification_channel_name_exam">Klausuren</string>
+    <string name="title_notifications">Benachrichtigungen</string>
+    <string name="send_to">Senden an…</string>
+    <string name="password">Passwort: %1$s</string>
+    <string name="password_copied">Passwort kopiert</string>
+
+    <array name="dropdown_dates">
+        <item>@string/date_today</item>
+        <item>@string/date_tomorrow</item>
+        <item>@string/date_overmorrow</item>
+        <item>@string/date_next_x</item>
+        <item>@string/date_pick</item>
+    </array>
+    
+    <array name="dropdown_notifications_date">
+        <item>@string/date_never</item>
+        <item>@string/date_one_day</item>
+        <item>@string/date_two_days</item>
+        <item>@string/date_three_days</item>
+    </array>
+
+    <array name="dropdown_notifications_time">
+        <item>@string/time_morning</item>
+        <item>@string/time_midday</item>
+        <item>@string/time_afternoon</item>
+        <item>@string/time_noon</item>
+        <item>@string/time_pick</item>
+    </array>
+
+</resources>

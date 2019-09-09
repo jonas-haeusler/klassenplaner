@@ -1,0 +1,23 @@
+[
+  {
+    "id":1,
+    "date":1554242400,
+    "group":"12\/4",
+    "subject":"Deutsch",
+    "homework":"Blatt Nr.5"
+  },
+  {
+    "id":2,
+    "date":1554328800,
+    "group":"Englischkurs",
+    "subject":"Englisch",
+    "homework":"Buch S.12"
+  },
+  {
+    "id":3,
+    "date":1554415200,
+    "group":"12\/4",
+    "subject":"Geschichte",
+    "homework":"Text lesen"
+  }
+]
