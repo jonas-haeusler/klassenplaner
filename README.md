@@ -1,5 +1,7 @@
 # Klassenplaner
 
+![klassenplaner-ui](https://user-images.githubusercontent.com/37297474/172475098-4ec74af1-b09a-45fe-9848-d2b062367141.png)
+
 An android app to ease the tedious task of managing homework for you and your class.
 
 ------
